@@ -10,15 +10,31 @@ namespace InheritanceAndPolymorphismPractice
     {
         static void Main(string[] args)
         {
-            Wizard wizardOne = new Wizard(true);
+            //Wizard wizardOne = new Wizard(true);
 
-            HogwartsStudent longbottom = new HogwartsStudent(7);
+            //HogwartsStudent longbottom = new HogwartsStudent(7);
 
-            DeathEater malfoy = new DeathEater();
+            //DeathEater malfoy = new DeathEater();
 
-            wizardOne.MakeMagic();
-            longbottom.MakeMagic();
-            malfoy.MakeMagic();
+            //wizardOne.MakeMagic();
+            //longbottom.MakeMagic();
+            //malfoy.MakeMagic();
+
+            Standard gymMember1 = new Standard(100);
+            VIP gymMember2 = new VIP();
+
+            gymMember1.Activate();
+            gymMember2.Activate();
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
